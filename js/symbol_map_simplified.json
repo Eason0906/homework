@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "title": "COVID-19 Active Cases (10 Oct 2020)",
+  "title": "Difference of EF2013 - EF2009",
   "width": 800,
   "height": 600,
   "data": {
@@ -20,7 +20,7 @@
         "fields": ["DDelta"]
       }
     },
-    {"calculate": "(datum.DDelta)/(pow(10,10))", "as": "Difference of EF2013 - EF2009"}
+    {"calculate": "(datum.DDelta)/(pow(10,10))", "as": "Sqrt of Difference of EF2013 - EF2009"}
   ],
   "projection": {
     "type": "equirectangular"
@@ -30,13 +30,13 @@
     },
   "encoding": {
     "color": {
-      "field": "Difference of EF2013 - EF2009",
+      "field": "Sqrt of Difference of EF2013 - EF2009",
       "type": "quantitative",
       "scale":{"type":"sqrt"}
     },
     "tooltip": [
       {"field": "properties.NAME", "type": "nominal", "title": "Country"},
-      {"field": "Difference of EF2013 - EF2009", "type": "quantitative"}
+      {"field": "Sqrt of Difference of EF2013 - EF2009", "type": "quantitative"}
     ]
   }
 
