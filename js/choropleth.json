@@ -20,7 +20,7 @@
         "fields": ["GDPDelta"]
       }
     },
-    {"calculate": "(datum.GDPDelta)/(pow(10,10))", "as": "Sqrt of Difference of GDP2013 - GDP2009"}
+    {"calculate": "(datum.GDPDelta)/(pow(10,5))", "as": "Sqrt of Difference of GDP2013 - GDP2009"}
   ],
   "projection": {
     "type": "equirectangular"
