@@ -1,4 +1,4 @@
-X.locale,Address.City,Address.County,Address.FormattedAddress,Address.IntersectionDescription,Address.Latitude,Address.Longitude,Address.Subdivision,LocationMilestones.OpenDate,Market,Name,Store.StoreDistrictID,Store.StoreGroupID
+X.locale,Address.City,Address.County,Address.FormattedAddress,Address.IntersectionDescription,latitude,longitude,Address.Subdivision,LocationMilestones.OpenDate,Market,Name,Store.StoreDistrictID,Store.StoreGroupID
 en-US,Oxford,Calhoun,"400 Oxford Exchange Blvd, Oxford, AL 36203-3459",SEC I-20 & Golden Creek Rd,33.61 ,-85.78 ,AL,2006-07-19T12:00:00,ESE,Oxford,340,394
 en-US,Opelika,Lee,"2640 Enterprise Dr, Opelika, AL 36801-1511",NWC I-85 & Hwy 280,32.62 ,-85.41 ,AL,2005-07-20T12:00:00,ESE,Opelika,340,394
 en-US,Carrollton,Carroll,"1129 S Park St, Carrollton, GA 30117-4429",NWC US 27 & Hwy 166 Bypass,33.56 ,-85.08 ,GA,1997-07-23T12:00:00,ESE,Carrollton,336,394
