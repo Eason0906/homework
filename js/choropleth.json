@@ -35,7 +35,7 @@
       "scale":{"type":"sqrt"}
     },
     "tooltip": [
-      {"field": "properties.NAME", "type": "nominal", "title": "Country"},
+      {"field": "properties.name", "type": "nominal", "title": "Country"},
       {"field": "Sqrt of Difference of GDP2013 - GDP2009", "type": "quantitative"}
     ]
   }
