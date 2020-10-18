@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "title": "Difference of EF2013 - EF2009",
+  "title": "Difference of GDP2013 - GDP2009",
   "width": 800,
   "height": 600,
   "data": {
@@ -17,10 +17,10 @@
           "url": "https://raw.githubusercontent.com/Eason0906/homework/main/data/EF_GDP(constant2010USD).csv"
         },
         "key": "Country",
-        "fields": ["DDelta"]
+        "fields": ["GDPDelta"]
       }
     },
-    {"calculate": "(datum.DDelta)/(pow(10,10))", "as": "Sqrt of Difference of EF2013 - EF2009"}
+    {"calculate": "(datum.GDPDelta)/(pow(10,10))", "as": "Sqrt of Difference of GDP2013 - GDP2009"}
   ],
   "projection": {
     "type": "equirectangular"
@@ -30,13 +30,13 @@
     },
   "encoding": {
     "color": {
-      "field": "Sqrt of Difference of EF2013 - EF2009",
+      "field": "Sqrt of Difference of GDP2013 - GDP2009",
       "type": "quantitative",
       "scale":{"type":"sqrt"}
     },
     "tooltip": [
       {"field": "properties.NAME", "type": "nominal", "title": "Country"},
-      {"field": "Sqrt of Difference of EF2013 - EF2009", "type": "quantitative"}
+      {"field": "Sqrt of Difference of GDP2013 - GDP2009", "type": "quantitative"}
     ]
   }
 
